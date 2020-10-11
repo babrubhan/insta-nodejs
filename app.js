@@ -36,6 +36,6 @@ app.use(require("./routes/auth"));
 app.use(require("./routes/post"));
 app.use(require("./routes/user"));
 
-app.listen(PORT, () => {
+app.listen(80, 'www.babrubhan.com/insta-nodejs', () => {
 	console.log("Server is running under port 5000 ...");
 });
